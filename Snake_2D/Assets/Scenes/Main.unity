@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 1973326784}
   - component: {fileID: 1973326783}
   - component: {fileID: 1973326782}
+  - component: {fileID: 1973326786}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -317,6 +318,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1973326786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1973326781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af85cf6b0d3c5824388e892dcf73c3cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1115433969}
 --- !u!1 &2072455317
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +480,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.5, y: 31.640001}
+  m_Size: {x: 3.15, y: 31.640001}
   m_EdgeRadius: 0
 --- !u!61 &2072455323
 BoxCollider2D:
@@ -492,5 +505,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.5, y: 31.640001}
+  m_Size: {x: 3.15, y: 31.640001}
   m_EdgeRadius: 0
